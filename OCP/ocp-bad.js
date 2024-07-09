@@ -24,6 +24,8 @@ class PaymentProcessor {
             }, 3000);
         } 
 
+        // adding new payment types would require to modify this class
+
         // pix, boleto, ...
     }
 }
