@@ -12,7 +12,15 @@ class Student {
     }
 }
 
-const student = new Student('John Doe');
-student.study();
 
-student.takeTest(); // whoopsie! This method is not applicable to all students
+class KindergartenStudent extends Student {
+    constructor(name) {
+        super(name);
+    }
+}
+
+const kid = new KindergartenStudent("John");
+
+kid.study();
+kid.takeTest(); // whoopsie! This method is not applicable to all students
+// kids can't take tests
