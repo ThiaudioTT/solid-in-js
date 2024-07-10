@@ -30,6 +30,6 @@ class PaymentProcessor {
 }
 
 
-console.log("OCP Bad:")
+console.log("DIP Bad:")
 const paymentProcessor = new PaymentProcessor();
 paymentProcessor.processPayment(100); // Paying amount $100 using Paypal
